@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+
+
+.menu-bar {
+	height: 100px;
+	background: #E24852;
+	border-bottom: 10px solid #8584A3;
+	display: flex;
+	align-items: center;
+	color: #FFE5ED;
+}
+
+.menu-bar .menu-logo {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	margin: 0 50px;
+	width: 50%;
+}
+
+.menu-bar .menu-logo img {
+	width: 100px;
+	height: 100px;
+}
+
+.menu-bar .menu-logo h1 {
+	font-weight: normal;
+	font-size: 1.5em;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 0.2em;
+	margin: 0 10px;
+}
+
+.menu-bar nav {
+	display: flex;
+	width: 50%;
+	justify-content: center;
+	font-size: 1.1em;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.menu-bar nav li {
+	margin: 0 50px;
+}
+
+.menu-bar nav .search-bar {
+	display: flex;
+	align-items: center;
+}
+
+.menu-bar nav .search-bar li {
+	margin: 0 10px;
+}
+
+.menu-bar nav .search-bar input[type="textbox"] {
+	border-radius: 20px;
+	border: 1px solid #5B2D4E;
+	box-sizing: border-box;
+	padding: 2px 6px;
+	width: 200px;
+}
+
+.container {
+	width: 80%;
+	height: 1000px;
+	margin: auto;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.horizontal-line {
+	border: 2px solid #E24852;
+	width: 80%;
+	border-radius: 20px;
+}
+
+.container .fresh-vids {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.container .fresh-vids h1 {
+	width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+	letter-spacing: 1.8em;
+	font-size: 1.5em;
+}
+
+

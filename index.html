@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PlayTube - Youtube Player</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="menu-bar">
+		<div class="menu-logo">
+			<img src="headphone.png" alt="headphone_logo">
+			<h1>PlayTube</h1>
+		</div>
+		<nav>
+			<li>Listen NOW!</li>
+			<li>My Playlist</li>
+			<div class="search-bar">
+				<input type="textbox" name="search" placeholder="What do you want ?" id="search_bar">
+				<li><i class="fas fa-search" onclick="searchHide()"></i></li>
+			</div>
+		</nav>
+	</div>
+
+	<div class="container">
+		<button id="authorize-button">Log In</button>
+      	<button id="signout-button">Log Out</button>
+		<div class="fresh-vids">
+			<h1>Latest Vids</h1>
+			<div class="horizontal-line"></div>
+			<div id="latest-vids-data"></div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+	<script src="https://kit.fontawesome.com/42452d7646.js"></script>
+	<script src="https://apis.google.com/js/api.js"></script>
+</body>
+</html>
